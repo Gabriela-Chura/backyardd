@@ -1,0 +1,163 @@
+/* Tu CSS va aqui */
+
+*{
+    outline: 1px solid rgba(255,0,0,0.3)
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.clearfix{
+    display: table;
+    
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+}
+/* ------------------------------------------HEADER*/
+
+header{
+    padding: 10px 0;
+}
+
+.container img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.list-menu{
+    list-style: none;
+    margin: 0;
+    float: right;
+    margin-right: 45px;
+    
+}
+
+.list-menu li{
+    display: inline-block;
+}
+
+.list-menu li a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 10px;
+    color: darkgrey;
+}
+
+/* ------------------------------------------BANNER*/
+
+section{
+    background-color: #7F7D7D;
+   
+}
+ 
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.col-1, .col-2{
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.col-1{
+    width: 60%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.col-1 h1{
+        
+        font-size: 48px;
+    
+}
+
+.col-1 .parrafo{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.col-2{
+    width: 40%;
+}
+
+.block-form{
+    text-align: center;
+    margin: 20px;
+    background-color: #B4B4B4;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;    
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.block-form input, button{
+    width: 100%;
+    border: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+.block-form input{
+    padding: 5px;
+}
+
+
+.block-form button{
+    margin-bottom: 5px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    
+}
+/* ------------------------------------------footer*/
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/* ------------------------------------------MEDIAQUERIES*/
+
+@media (max-width:900px)
+{
+    .container{
+        width: 700px;
+    }
+}
+
+@media (max-width:700px)
+{
+    .container{
+        width: 100%;
+    }
+    
+    .col-1, .col-2{
+        width: 100%;
+    }
+    
+    .block-form{
+        margin: 0;
+    }
+    
+    header{
+        text-align: center;
+    }
+}
+
+    
+  
+    
